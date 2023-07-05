@@ -55,4 +55,79 @@ body{
 .div_principal{
     margin: 0 6em;
 }
+.img_tv{
+    width: 80%;
+}
+.secundario{
+    align-items: center;
+    margin: 0 10em;
+
+}
+.descricao_titulo{
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--branco-principal);
+    margin-bottom: 0.2em;
+}
+.descricao_texto{
+    color: var(--cinza-secundario);
+}
+.secundario_botao{
+    display: inline-block;
+    margin-top: 1em;
+
+}
+.container_descricao{
+    padding: 2em;
+}
+
+.dispositivos_titulo{
+    text-align: center;
+    font-size: 2.0rem;
+    margin-bottom: 1rem;
+}
+.todos_dispositivos{
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+.dispositivos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+.dispositivos_img{
+    width: 85%;
+    
+}
+.rodape{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.rodape_logo{
+    width: 5%;
+    margin: 1rem;
+}
+.rodape_lista{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 2rem ;
+    list-style-type: none;
+}
+
+.texto_link{
+    text-decoration: none;
+    color: var(--cinza-secundario);
+}
+.rodape_texto{
+    margin: 0 2rem 1rem 2rem ;
+    color: var(--cinza-secundario);
+    font-size: 0.85rem;
+}
+.lista_link a:hover{
+    color: var(--botao-azul);
+}
+
 
